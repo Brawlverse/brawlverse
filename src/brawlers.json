@@ -1,0 +1,584 @@
+[
+  {
+    "name": "Shelly",
+    "rarity": "Starting",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "Fast Forward",
+          "description": "Shelly dashes 3.33 tiles in the direction she is facing. However, it is cancelled if she is stunned or knocked back, and she cannot dash through walls or water."
+        },
+        {
+          "name": "Clay Pigeons",
+          "description": "For the next 5 seconds, Shelly's main attacks will fire faster, have their spread decreased by 67%, and their range increased to 10 tiles."
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "Shell Shock",
+          "description": "Enemies hit by Shelly's Super are slowed down by a considerable amount for 2 seconds."
+        },
+        {
+          "name": "Band-Aid",
+          "description": "Shelly gains a bar that takes 15 seconds to charge up. If she falls below 40% health but still survive and the bar is fully charged, she instantly heals 2220 health, and the bar resets."
+        }
+      ],
+      "hypercharge": {
+        "name": "Double Barrel",
+        "description": "Shelly's Super spread and number of projectiles is increased by 33%. She also gains a 25% speed and shield boost, and a 5% damage boost."
+      }
+    },
+    "stats": {
+      "class": "Damage Dealer",
+      "damage": "600x5",
+      "superDamage": "640x9",
+      "health": "7400",
+      "range": "7.67 (Long)",
+      "superRange": "7.67 (Long)",
+      "movementSpeed": "770 (Fast)",
+      "reloadSpeed": "1.5s (Normal)",
+      "gender": "Female",
+      "voiceActor": "Sandra Espinoza",
+      "masteryTitle": "No time to explain!"
+    },
+    "attack": {
+      "name": "Buckshot",
+      "description": "Shelly fires a burst of shotgun pellets that deal low damage by themselves, but can deal a lot together. The attack deals more damage at close range since more pellets will hit the enemy. This attack allows Shelly to excel in close-quarters combat, especially against Brawlers with low health and/or shorter-ranged attacks."
+    },
+    "super": {
+      "name": "Super Shell",
+      "description": "Shelly's Super fires a high-damaging burst of pellets which destroys obstacles and knocks enemies back. Like her main attack, the pellets spread out and deal massive damage at close range. Note that the individual pellets cannot pierce through walls, and will disappear upon destroying a wall tile."
+    },
+    "description": "Shelly is a versatile starting Brawler with moderate health, high close-range damage, and fast movement. Her attack is a shotgun burst, and her Super knocks back enemies and destroys obstacles. Her first Gadget, Fast Forward, lets her dash, while Clay Pigeons increases attack range and narrows spread. Shell Shock slows enemies with her Super, and Band-Aid heals her when her health drops below 40%. Her Hypercharge boosts her Super's spread and projectile count.",
+    "tips": [
+      "Shelly is effective in Brawl Ball for breaking obstacles and creating scoring opportunities.",
+      "In Solo Showdown, Shelly can ambush from a bush. Shelly's Super interrupts other Brawlers' Supers and is powerful against tanks, especially when charged.",
+      "In Duo Showdown, she can respawn near enemies with teammate help, using her Super for quick eliminations.",
+      "Shelly excels on maps with bushes and walls but must be cautious when using her Super as it destroys obstacles.",
+      "Her Clay Pigeons Gadget is great after using her Super, extending her shot range and working well with Shell Shock to slow enemies.",
+      "Fast Forward Gadget is less useful compared to other Gadgets, while Clay Pigeons is better for mid-range and finishing off low-health enemies.",
+      "To counter long-range Brawlers, use her spread attack from bushes, and to avoid tanks or close-range assassins, keep her Super charged and use Fast Forward or Clay Pigeons as needed."
+    ]
+  },
+  {
+    "name": "Barley",
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "Sticky Syrup Mixer",
+          "description": "Barley drops a bottle of liquid at his feet that lasts for 4 seconds and slows down enemies that walk into it in a 3.33 tile radius. The puddle remains even after Barley is defeated."
+        },
+        {
+          "name": "Herbal Tonic",
+          "description": "Barley drops puddles that last for 4.5 seconds at himself and his teammates within 10 tiles that heals for 720 health per second. Multiple puddles in the same area will overlap, resulting in more healing."
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "Medical Use",
+          "description": "Whenever Barley lobs a bottle from his main attack, he regains 480 health. The healing occurs even if Barley doesn't hit an enemy with the attack."
+        },
+        {
+          "name": "Extra-Noxious",
+          "description": "Barley's main attack's damage is increased by 200 damage per tick."
+        }
+      ],
+      "hypercharge": {
+        "name": "Bottled-Up Rage",
+        "description": "Barley's Super throws 3 puddles that cover a larger area than his normal Super, with a radius of 3.67 tiles each and destroy bushes. He gains a 26% speed boost, 25% damage boost, and 5% shield boost."
+      }
+    },
+    "stats": {
+      "class": "Artillery",
+      "damage": "1600x2",
+      "superDamage": "1600x2",
+      "health": "4800",
+      "range": "7.33 (Long)",
+      "superRange": "9.33 (Very Long)",
+      "movementSpeed": "720 (Normal)",
+      "reloadSpeed": "2s (Slow)",
+      "gender": "Male",
+      "voiceActor": "Phillip Lockwood",
+      "masteryTitle": "You got served!"
+    },
+    "attack": {
+      "name": "Undiluted",
+      "description": "Barley throws a bottle that shatters, leaving a puddle that damages enemies who are splashed or standing in the 2-tile radius. The damage hits twice if the enemy stays on the puddle. The liquid lasts for 1.9 seconds before disappearing. However, Barley's attacks reload and travel slowly."
+    },
+    "super": {
+      "name": "Last Call",
+      "description": "Barley's Super throws five bottles of toxic liquid, covering a large area and dealing damage over 3.9 seconds. The spread increases with distance. It takes 1.5 seconds to complete, but Barley can't attack, reload, or use his Herbal Tonic Gadget during it, and it’s cancelled if interrupted."
+    },
+    "description": "Barley is a Rare Brawler with low health but high damage potential. He attacks by throwing bottles that create damaging puddles. His Super lobs five bottles for greater area coverage. His first Gadget, Sticky Syrup Mixer, slows enemies, and Herbal Tonic heals allies standing on puddles. Medical Use heals Barley when he attacks, while Extra Noxious boosts his attack's damage. His Hypercharge, Bottled-Up Rage, increases his Super's area and destroys bushes. Barley and his Wizard skin can be unlocked by linking to Supercell ID.",
+    "tips": [
+      "Barley excels in Heist and Siege with his long-range Super and control abilities, pushing enemies back and supporting his team.",
+      " In Duo Showdown, he pairs well with tanks like El Primo or Rosa, dealing damage while they finish enemies.",
+      "His Sticky Syrup Mixer Gadget is effective for defense in Brawl Ball, slowing enemies or surprising tanks and assassins, especially from behind walls.",
+      "Medical Use Star Power boosts his survivability, and Extra Noxious increases his damage, making him more aggressive in Heist and Siege.",
+      "Barley’s attacks force enemies to move, and combining his Super with Spike's can deal massive damage.",
+      "Barley’s attacks control areas and can be lobbed over obstacles, making it safer to attack from behind walls.",
+      "To optimize damage, aim ahead of enemies to hit them with two ticks and avoid auto-aim."
+    ]
+  },
+  {
+    "name": "Brock",
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "Rocket Laces",
+          "description": "Brock creates a 2.67-tile explosion under his feet, launching him 4 tiles in the direction he faces. It doesn’t destroy obstacles or bushes. Enemies caught in the blast are knocked back. If used mid-Super, the Super is canceled."
+        },
+        {
+          "name": "Rocket Fuel",
+          "description": "Brock's next attack is 30% faster, 50% larger, and capable of destroying cover within a 2-tile explosion radius. The attack doesn't deal extra damage or have the fire effect."
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "More Rockets!",
+          "description": "Brock's Super now fires 4 more rockets, increasing the number of rockets from 9 to 13."
+        },
+        {
+          "name": "Rocket No. Four",
+          "description": "Brock gains an extra ammo bar, allowing him to have 4 attacks ready at once instead of 3. However, Brock's reload speed stays the same and it takes 33% longer for him to reload all his empty ammo."
+        }
+      ],
+      "hypercharge": {
+        "name": "Rocket Barrage",
+        "description": "Brock's Super fires 4 waves of 7 rockets (5 waves with the More Rockets Star Power), each rocket dealing 1000 damage with the 25% Hypercharge damage boost. He also gains a 26% speed boost and 5% shield boost."
+      }
+    },
+    "stats": {
+      "class": "Marksman",
+      "damage": "2320",
+      "superDamage": "2080",
+      "health": "5400",
+      "range": "9 (Long)",
+      "superRange": "8.33 (Long)",
+      "movementSpeed": "720 (Normal)",
+      "reloadSpeed": "2.1s (Slow)",
+      "gender": "Male",
+      "voiceActor": "Scott Williams",
+      "masteryTitle": "Boom!"
+    },
+    "attack": {
+      "name": "Rockin' Rocket",
+      "description": "Brock fires long-range rockets with high area damage in a 1.5-tile radius. After impact, the ground burns for 2.9 seconds, dealing 30% of the rocket's damage per second. His attacks reload and travel slowly."
+    },
+    "super": {
+      "name": "Rocket Rain",
+      "description": "Brock's Super launches 9 rockets over a large area, dealing heavy damage and destroying obstacles in a 1.5-tile radius. The rockets don't set the ground on fire. Brock can move while firing but can't attack or reload. It's canceled if he's knocked back, pulled, stunned, or uses his Rocket Laces Gadget."
+    },
+    "description": "Brock is a Rare Brawler with low health but high damage. He fires long-ranged rockets with area damage, and his Super launches a rocket barrage over a wide area. His Rocket Laces Gadget knocks back enemies and launches him into the air, while Rocket Fuel boosts his next attack with a larger blast radius, faster speed, and wall destruction. The More Rockets! Star Power adds more rockets to his Super, and Rocket No. Four increases his ammo capacity to four. His Hypercharge, Rocket Barrage, boosts his next Super with extra rockets and high damage.",
+    "tips": [
+      "Brock excels in open maps where he can avoid ambushes. Stay behind teammates due to his low health and focus on long-range support. His slow reload makes accuracy crucial—avoid wasting all rockets at once, even with Rocket No. Four's extra ammo.",
+      "In Brawl Ball, Brock can break goal barriers with his Super or Rocket Fuel for scoring opportunities.",
+      "In Duo Showdown, aim rockets between grouped enemies for splash damage.",
+      "Heist favors Brock for breaking walls near the safe and dealing damage from a distance.",
+      "Rocket No. Four works well in Knockout, allowing Brock to finish enemies quickly when fully loaded. Rocket Laces helps him escape ambushes, jump walls, and create distance from tanks. Rocket Fuel can break key walls early in maps like Backyard Bowl, but its shot can be body-blocked.",
+      "Rockets auto-explode and slightly hit through walls at max range, so standing near maximum range increases hit consistency.",
+      "Use his Super when enemies group up or hide behind walls. Aim carefully to avoid wasting rockets, as some Brawlers can escape during the attack."
+    ]
+  },
+  {
+    "name": "Bull",
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "T-Bone Injector",
+          "description": "Bull heals 2000 health, but halts the self-regeneration process. This Gadget can't be used when Bull is at full health or when he Supers."
+        },
+        {
+          "name": "Stomper",
+          "description": "While charging in his Super, Bull can immediately interrupt his Super's charge by a stomp which slows enemies caught in a 3-tile radius around him for 1.5 seconds."
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "Berserker",
+          "description": "When Bull's health falls below 60%, his reload speed will double. The effect is lost if Bull heals back above 60% health. When activated, he will turn red and angry particles will emit from him."
+        },
+        {
+          "name": "Tough Guy",
+          "description": "When Bull's health falls below than 40%, he gains a damage reduction shield that reduces 30% of all damage he takes. The effect is lost if Bull heals back above 40% health."
+        }
+      ],
+      "hypercharge": {
+        "name": "Jaws of Steel",
+        "description": "When Bull is using his Super, he gets a shield that reduces damage he takes by 80% until the Super ends or gets canceled. He receives a 25% speed and shield boost, and a 5% damage boost."
+      }
+    },
+    "stats": {
+      "class": "Tank",
+      "damage": "880x5",
+      "superDamage": "1920",
+      "health": "10000",
+      "range": "5.33 (Normal)",
+      "superRange": "11 (Very Long)",
+      "movementSpeed": "770 (Fast)",
+      "reloadSpeed": "1.6s (Normal)",
+      "gender": "Male",
+      "voiceActor": "Bill Russell",
+      "masteryTitle": "Bulldozer!"
+    },
+    "attack": {
+      "name": "Double-Barrel",
+      "description": "Bull fires 5 shotgun shells with short range. Each shell deals low damage, but if all hit, they can deal significant damage. The attack is most effective at close range, as more shells are likely to hit."
+    },
+    "super": {
+      "name": "Bulldozer",
+      "description": "Bull's Super allows him to charge a long distance in the direction he aims, destroying obstacles and knocking back and damaging enemies in his path. Bull can still take damage, but knockbacks won’t interrupt his Super. However, stuns can cancel it."
+    },
+    "description": "Bull is a Rare Brawler with high health, fast movement speed, and strong close-range damage. He charges his Super by taking damage, allowing him to charge forward, damage enemies, and destroy obstacles. His Gadgets include T-Bone Injector for healing and Stomper for halting his charge while slowing enemies. His Star Powers enhance his reload speed when low on health or provide a shield when below 40%. His Hypercharge gives his Super a damage-reduction shield, making him even tougher in combat.",
+    "tips": [
+      "Bull thrives in close-quarters combat, so take advantage of bushes and chokepoints to ambush enemies, and pair with throwers in Duo Showdown to deal massive damage quickly.",
+      "Bull is highly effective in modes like Heist and Brawl Ball, where his Super helps him break obstacles, clear paths, and close the gap on enemies.",
+      "His T-Bone Injector is useful for staying in the fight longer, especially when low on health.",
+      "Bull’s Berserker Star Power boosts his damage, making him a powerhouse in Heist, while Tough Guy helps him survive longer in other modes after charging in with his Super.",
+      "His Super is great for both chasing down enemies and escaping danger, but be mindful of taking damage while charging or getting trapped in the poison clouds."
+    ]
+  },
+  {
+    "name": "Colt",
+    "rarity": "Rare"
+  },
+  {
+    "name": "El Primo",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Nita",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Poco",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Rosa",
+    "rarity": "Rare"
+  },
+  {
+    "name": "8-Bit",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Carl",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Darryl",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Dynamike",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Gus",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Jacky",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Jessie",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Penny",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Rico",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Tick",
+    "rarity": "Super Rare"
+  },
+  {
+    "name": "Angelo",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Ash",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Bea",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Belle",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Berry",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Bibi",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Bo",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Bonnie",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Colette",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Edgar",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Emz",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Frank",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Gale",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Griff",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Grom",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Hank",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Larry & Lawrie",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Lola",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Maisie",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Mandy",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Meeple",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Nani",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Pam",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Pearl",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Piper",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Sam",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Shade",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Stu",
+    "rarity": "Epic"
+  },
+  {
+    "name": "Buster",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Buzz",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Byron",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Charlie",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Chuck",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Clancy",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Doug",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Eve",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Fang",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Gene",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Gray",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Janet",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Juju",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Lily",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Lou",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Max",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Melodie",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Mico",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Moe",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Mortis",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Mr. P",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Ollie",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Otis",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "R-T",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Ruffs",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Sprout",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Squeak",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Tara",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Willow",
+    "rarity": "Mythic"
+  },
+  {
+    "name": "Amber",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Chester",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Cordelius",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Crow",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Draco",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Kenji",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Kit",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Leon",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Meg",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Sandy",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Spike",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Surge",
+    "rarity": "Legendary"
+  },
+  {
+    "name": "Buzz Lightyear",
+    "rarity": "Temporary"
+  }
+]
