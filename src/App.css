@@ -9,7 +9,8 @@ body {
   background-color: rgb(20, 20, 30);
 }
 
-.nav {
+.nav,
+.nav-hide {
   width: 100%;
   position: sticky;
   top: 0;
@@ -24,6 +25,11 @@ body {
   z-index: 100;
 }
 
+.nav-hide {
+  display: none;
+  padding-inline: 20px;
+}
+
 .nav-link {
   color: #cccccc;
   font-size: 16px;
@@ -33,6 +39,55 @@ body {
 }
 
 .nav-link:hover {
+  color: #f5b120;
+}
+
+.dropdown-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 48px;
+  background-color: rgb(20, 20, 30);
+  align-items: center;
+  padding: 10px;
+  transform: translateX(-20px);
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0px 5px 5px rgb(40, 40, 40);
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.dropdown-label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #cccccc;
+  font-weight: bold;
+  padding-block: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dropdown-label:hover {
+  color: #f5b120;
+}
+
+.dropdown-caret {
+  width: 10px;
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.dropdown-link {
+  color: #cccccc;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.dropdown-link:hover {
   color: #f5b120;
 }
 
@@ -296,6 +351,15 @@ body {
 
   .brawler-attack {
     width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-hide {
+    display: flex;
+    padding-block: 0;
   }
 }
 
