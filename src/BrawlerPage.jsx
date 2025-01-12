@@ -5,6 +5,8 @@ import BrawlerAbilities from "./components/BrawlerAbilities";
 import BrawlerAttack from "./components/BrawlerAttack";
 
 function BrawlerPage(props) {
+  document.title = props.name + " | Brawlverse";
+
   return (
     <>
       <Hero

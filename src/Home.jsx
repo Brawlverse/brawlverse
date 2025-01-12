@@ -1,9 +1,11 @@
 import React from "react";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
-import images from "./img/img"
+import images from "./img/img";
 
 function Home() {
+  document.title = "Home | Brawlverse";
+
   return (
     <>
       <Hero
@@ -14,8 +16,20 @@ function Home() {
       <div className="content">
         <div className="card-containers">
           <div className="cards">
-            <Card link="/brawlers" title="Brawlers" description="Explore everything about the brawlers" src={images.brawlersCard} flex="4" />
-            <Card link="/cosmetics" title="Cosmetics" description="Browse through all the cosmetics" src={images.cosmeticsCard} flex="3" />
+            <Card
+              link="/brawlers"
+              title="Brawlers"
+              description="Explore everything about the brawlers"
+              src={images.brawlersCard}
+              flex="4"
+            />
+            <Card
+              link="/cosmetics"
+              title="Cosmetics"
+              description="Browse through all the cosmetics"
+              src={images.cosmeticsCard}
+              flex="3"
+            />
           </div>
           <div className="cards">
             <Card link="/items" title="Items" description="Check out the game's items" src={images.itemsCard} flex="3" />
@@ -24,8 +38,8 @@ function Home() {
         </div>
         <h2 className="section-title">Numbers say it all</h2>
         <div className="cards">
-          <Card title="0" description="Pages" />
-          <Card title="0" description="Users" />
+          <Card title="6" description="Pages" />
+          <Card title="5" description="Users" />
           <Card title="0" description="Comments" />
           <Card title="1" description="Developer" />
         </div>

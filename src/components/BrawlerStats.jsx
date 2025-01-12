@@ -8,7 +8,7 @@ function BrawlerStats({ props }) {
 
   return (
     <div className="brawler-stats">
-      <img src={images[brawler]} className="brawler-stats-img" />
+      <img src={images[brawler.replace(" ", "")]} className="brawler-stats-img" />
       <div className="brawler-stats-info">
         <Stat name="Rarity" value={props.rarity} />
         <Stat name="Class" value={stats.class} />

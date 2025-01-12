@@ -243,23 +243,282 @@
   },
   {
     "name": "Colt",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "Speedloader",
+          "description": "Colt instantly reloads 2 ammo if he doesn't have full amo. This means the gadget can be used even if Colt only has one unfilled ammo bar."
+        },
+        {
+          "name": "Silver Bullet",
+          "description": "Colt's next attack fires a bullet which deals the damage of two of his main attack's bullets and destroys obstacles. The Magnum Special Star Power affects the range of this Gadget."
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "Slick Boots",
+          "description": "Colt's movement speed is passively increased by 100 points, allowing him to move faster than most other Brawlers and nearly the same as assassins such as Crow and Leon."
+        },
+        {
+          "name": "Magnum Special",
+          "description": "Colt's main attack range is increased by 1 tile and the bullet speed is also increased to reach the target in the same amount of time at maximum range as normal."
+        }
+      ],
+      "hypercharge": {
+        "name": "Dual Wielding",
+        "description": "The gap between the two streams of Bullets of Colt's Super is increased from 0.33 to 0.73 tiles, increasing his  Super width from 1.01 to 1.41 tiles. He gains a 26% speed, 25% damage, and 5% shield boosts."
+      }
+    },
+    "stats": {
+      "class": "Damage Dealer",
+      "damage": "720x6",
+      "superDamage": "640x12",
+      "health": "5600",
+      "range": "9 (Long)",
+      "superRange": "11 (Very Long)",
+      "movementSpeed": "720 (Normal)",
+      "reloadSpeed": "1.4s (Fast)",
+      "gender": "Male",
+      "voiceActor": "Billy Kametz",
+      "masteryTitle": "The Pretty"
+    },
+    "attack": {
+      "name": "Six-Shooters",
+      "description": "Colt shoots a volley of six bullets in a straight line over 0.8 seconds. Each bullet deals low damage individually, but if all hit, they can deal significant damage. The bullets are narrow, each 0.33 tiles wide, and come out in two streams 0.33 tiles apart, making them effective at long range."
+    },
+    "super": {
+      "name": "Bullet Storm",
+      "description": "Colt's Super fires a long-range volley of twelve bullets over 1.4 seconds. The bullets are 0.67 tiles wide and come out in two streams 0.33 tiles apart. These bullets travel faster and are larger than his regular attack, and they can destroy obstacles,but if a bullet hits a wall, it disappears."
+    },
+    "description": "Colt is a Rare Brawler with low health but high damage output. His regular attack fires a long-range volley of six bullets, while his Super shoots twelve piercing bullets that can destroy obstacles. His Gadgets include Speedloader, which instantly reloads two ammo, and Silver Bullet, which makes his next attack a single piercing bullet that destroys obstacles. His Star Powers are Slick Boots, which increases movement speed, and Magnum Special, which boosts his attack range and bullet speed. His Hypercharge, Dual Wielding, increases the width of his Super.",
+    "tips": [
+      "Colt excels in open maps, out-ranging close-ranged Brawlers, so always try to maintain range and use his Super for heavy damage or to destroy cover, opening paths for teammates or breaking walls near the enemy's goal in Brawl Ball.",
+      "To maximize damage, predict enemy movement. Shoot behind dodging enemies or mirror their movement to make the enemy walk into most of the bullets.",
+      "He shines in Duo Showdown, Brawl Ball, and Heist with his high damage and ability to break walls, but struggles in survival modes like Showdown, Hot Zone, and Bounty due to his low health.",
+      "Pair him with Brawlers who can stun, pull, or slow enemies to help land all his shots.",
+      "Magnum Special increases his range for better map control. Speedloader boosts Colt's damage with extra ammo, great for modes like Heist or Siege, but can be tricky to hit all shots, especially close up. Silver Bullet clears obstacles and ensures hits, perfect for ambushes or breaking walls in Brawl Ball. Slick Boots improves mobility, helping with dodging and chasing."
+    ]
   },
   {
     "name": "El Primo",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "Suplex Supplement",
+          "description": "El Primo grabs the nearest enemy in a 3-tile radius and throws them over obstacles behind him. This stuns the enemy, but also temporarily interrupts El Primo's movement. He can’t throw enemies with a respawning shield."
+        },
+        {
+          "name": "Asteroid Belt",
+          "description": "El Primo summons a meteor within 10 tiles that deals 3040 damage, destroys obstacles, and knocks enemies back in a 3.33-tile blast radius. There is a 2.5-second delay where the area-of-effect is highlighted."
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "El Fuego",
+          "description": "El Primo sets enemies he hits with his Super on fire to burn for 1800 damage over 4 seconds, or 450 damage per second. This Star Power’s burn is mechanically similar to Crow's poison."
+        },
+        {
+          "name": "Meteor Rush",
+          "description": "Once El Primo lands after using his Super, his speed is increased by 200 points for 4 seconds."
+        }
+      ],
+      "hypercharge": {
+        "name": "Gravity Leap",
+        "description": "El Primo's Super pulls in enemies in a radius around him upon hitting them. Enemies in bushes and invisible enemies like Leon will be revealed if they are pulled. He gains a 25% speed and shield boost, and a 5% damage boost."
+      }
+    },
+    "stats": {
+      "class": "Tank",
+      "damage": "760x4",
+      "superDamage": "1920",
+      "health": "12600",
+      "range": "3 (Short)",
+      "superRange": "9 (Long)",
+      "movementSpeed": "770 (Fast)",
+      "reloadSpeed": "0.8s (Very Fast)",
+      "gender": "Male",
+      "voiceActor": "Alejandro Sanchez",
+      "masteryTitle": "El Luchador"
+    },
+    "attack": {
+      "name": "Fists of Fury",
+      "description": "El Primo delivers a quick flurry of four close-ranged, piercing punches that deal high total damage. The attack takes 0.85 seconds to complete and reloads quickly, allowing him to consistently deal damage to nearby enemies."
+    },
+    "super": {
+      "name": "Flying Elbow Drop",
+      "description": "El Primo launches into the air then comes crashing down, dealing moderate damage, destroying obstacles, and knocking back enemies upon landing. It can close the gap to enemies or escape from danger."
+    },
+    "description": "El Primo is a high-health Brawler with strong damage and mobility. He attacks with close-range punches and can also charge his Super by taking damage. His Super allows him to jump, dealing damage, knocking back enemies, and destroying obstacles. His Gadgets include a throw that launches enemies into the air and a meteor that damages and destroys cover. His Star Powers add fire damage or speed after using his Super. His Hypercharge pulls enemies in upon landing his Super.",
+    "tips": [
+      "El Primo excels in Hot Zone, Heist, and Robo Rumble with his high health, damage, and mobility. His Super helps him reach objectives or knock enemies out of zones.",
+      "His Suplex Supplement and Asteroid Belt Gadgets clear paths and displace enemies, great for Duo Showdown, Gem Grab, and Brawl Ball.",
+      "His Suplex Gadget and Super can cancel slow Brawler attacks like Frank’s, and the Gadget can throw enemies into poison gas in Showdown.",
+      "El Fuego Star Power boosts his Super damage and prevents healing, securing kills on low-health enemies.",
+      "He works well with healers like Poco or Byron to charge in and deal significant damage with better survivability.",
+      "On bush maps, Suplex Supplement can surprise enemies, and Asteroid Belt can predict movements or open enemy cover.",
+      "El Primo struggles with long-ranged Brawlers due to his short attack range but can close the gap by charging his Super and jumping in."
+    ]
   },
   {
     "name": "Nita",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": ""
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": ""
+        }
+      ],
+      "hypercharge": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "stats": {
+      "class": "",
+      "damage": "",
+      "superDamage": "",
+      "health": "",
+      "range": "",
+      "superRange": "",
+      "movementSpeed": "",
+      "reloadSpeed": "",
+      "gender": "",
+      "voiceActor": "",
+      "masteryTitle": ""
+    },
+    "attack": {
+      "name": "",
+      "description": ""
+    },
+    "super": {
+      "name": "",
+      "description": ""
+    },
+    "description": "",
+    "tips": [""]
   },
   {
     "name": "Poco",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": ""
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": ""
+        }
+      ],
+      "hypercharge": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "stats": {
+      "class": "",
+      "damage": "",
+      "superDamage": "",
+      "health": "",
+      "range": "",
+      "superRange": "",
+      "movementSpeed": "",
+      "reloadSpeed": "",
+      "gender": "",
+      "voiceActor": "",
+      "masteryTitle": ""
+    },
+    "attack": {
+      "name": "",
+      "description": ""
+    },
+    "super": {
+      "name": "",
+      "description": ""
+    },
+    "description": "",
+    "tips": [""]
   },
   {
     "name": "Rosa",
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "abilities": {
+      "gadgets": [
+        {
+          "name": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": ""
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": ""
+        }
+      ],
+      "hypercharge": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "stats": {
+      "class": "",
+      "damage": "",
+      "superDamage": "",
+      "health": "",
+      "range": "",
+      "superRange": "",
+      "movementSpeed": "",
+      "reloadSpeed": "",
+      "gender": "",
+      "voiceActor": "",
+      "masteryTitle": ""
+    },
+    "attack": {
+      "name": "",
+      "description": ""
+    },
+    "super": {
+      "name": "",
+      "description": ""
+    },
+    "description": "",
+    "tips": [""]
   },
   {
     "name": "8-Bit",

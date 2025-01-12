@@ -9,6 +9,8 @@ function Brawlers() {
 
   const filteredBrawlers = brawlers.filter((brawler) => brawler.name.toLowerCase().includes(searchTerm.trim().toLowerCase()));
 
+  document.title = "Brawlers | Brawlverse";
+
   return (
     <>
       <Hero

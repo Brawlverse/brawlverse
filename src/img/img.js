@@ -6,6 +6,8 @@ import shelly from "./brawlers/shelly.webp";
 import barley from "./brawlers/barley.webp";
 import brock from "./brawlers/brock.webp";
 import bull from "./brawlers/bull.webp";
+import colt from "./brawlers/colt.webp";
+import elprimo from "./brawlers/el primo.webp";
 import fastForward from "./brawlers/abilities/fastForward.webp";
 import clayPigeons from "./brawlers/abilities/clayPigeons.webp";
 import shellShock from "./brawlers/abilities/shellShock.webp";
@@ -26,6 +28,16 @@ import stomper from "./brawlers/abilities/stomper.webp";
 import berserker from "./brawlers/abilities/berserker.webp";
 import toughGuy from "./brawlers/abilities/toughGuy.webp";
 import jawsof from "./brawlers/abilities/jawsOf.webp";
+import speedloader from "./brawlers/abilities/speedloader.webp";
+import silverBullet from "./brawlers/abilities/silverBullet.webp";
+import slickBoots from "./brawlers/abilities/slickBoots.webp";
+import magnumSpecial from "./brawlers/abilities/magnumSpecial.webp";
+import dualWielding from "./brawlers/abilities/dualWielding.webp";
+import suplexSupplement from "./brawlers/abilities/suplexSupplement.webp";
+import asteroidBelt from "./brawlers/abilities/asteroidBelt.webp";
+import elFuego from "./brawlers/abilities/elFuego.webp";
+import meteorRush from "./brawlers/abilities/meteorRush.webp";
+import gravityLeap from "./brawlers/abilities/gravityLeap.webp";
 
 const images = {
   brawlersCard,
@@ -36,6 +48,8 @@ const images = {
   barley,
   brock,
   bull,
+  colt,
+  elprimo,
   fastForward,
   clayPigeons,
   shellShock,
@@ -56,6 +70,16 @@ const images = {
   berserker,
   toughGuy,
   jawsof,
+  speedloader,
+  silverBullet,
+  slickBoots,
+  magnumSpecial,
+  dualWielding,
+  suplexSupplement,
+  asteroidBelt,
+  elFuego,
+  meteorRush,
+  gravityLeap,
 };
 
 export default images;
