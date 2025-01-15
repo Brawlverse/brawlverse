@@ -367,52 +367,59 @@
     "abilities": {
       "gadgets": [
         {
-          "name": "",
-          "description": ""
+          "name": "Bear Paws",
+          "description": "If Nita's bear is within 12 tiles, after a 1 second delay, it stuns enemies for 0.5 seconds within a 3.33 tile radius, allowing it to catch up and attack them."
         },
         {
-          "name": "",
-          "description": ""
+          "name": "Faux Fur",
+          "description": "If Nita's bear is within 12 tiles, it will be shielded from attacks by 35% for 3 seconds. This is slightly more protective than most other shielding abilities."
         }
       ],
       "starPowers": [
         {
-          "name": "",
-          "description": ""
+          "name": "Bear with Me",
+          "description": "Nita heals her Bear and her Bear heals her when they deal damage to enemy Brawlers. After Nita or Bruce attack an enemy Brawler, green effects fly out to them and heal them."
         },
         {
-          "name": "",
-          "description": ""
+          "name": "Hyper Bear",
+          "description": "Nita's bear deals damage 2.5 times as fast as it usually would, and decreases Bruce's attack delay from 0.6 seconds to 0.24 seconds."
         }
       ],
       "hypercharge": {
-        "name": "",
-        "description": ""
+        "name": "Hyperbearing",
+        "description": "Nita's bear will appear larger. The enlarged bear will walk 15% faster and have 20% more health. Nita gains a 26% speed, 25% damage, and 5% shield boost."
       }
     },
     "stats": {
-      "class": "",
-      "damage": "",
-      "superDamage": "",
-      "health": "",
-      "range": "",
-      "superRange": "",
-      "movementSpeed": "",
-      "reloadSpeed": "",
-      "gender": "",
-      "voiceActor": "",
-      "masteryTitle": ""
+      "class": "Damage Dealer",
+      "damage": "1920",
+      "superDamage": "800",
+      "health": "8000",
+      "range": "6 (Normal)",
+      "superRange": "5 (Normal)",
+      "movementSpeed": "720 (Normal)",
+      "reloadSpeed": "1.1s (Very Fast)",
+      "gender": "Female",
+      "voiceActor": "Marissa Lenti",
+      "masteryTitle": "The Untamed"
     },
     "attack": {
-      "name": "",
-      "description": ""
+      "name": "Rupture",
+      "description": "Nita's attack releases a fast-reloading shockwave with moderate damage and range. The wide shockwave can pierce through enemies, hitting multiple targets simultaneously."
     },
     "super": {
-      "name": "",
-      "description": ""
+      "name": "Overbearing",
+      "description": "Nita summons Bruce, a bear that targets and chases the nearest enemy, even in bushes. Bruce attacks with quick melee strikes dealing low damage and has slightly more health than Nita."
     },
-    "description": "",
-    "tips": [""]
+    "description": "Nita is a Rare Brawler with moderately high health. She attacks with shockwaves that have moderate range, pierce through enemies, and can hit multiple targets. Her Super summons Bruce, a bear with high health and quick melee attacks. Nita’s first Gadget, Bear Paws, stuns enemies near her bear, while the second, Faux Fur, shields Bruce for a brief period. Her first Star Power, Bear with Me, heals both Nita and Bruce when they hit enemies, and her second Star Power, Hyper Bear, boosts Bruce’s attack speed.",
+    "tips": [
+      "Nita’s bear, Bruce, excels in Heist, where he can be summoned over obstacles to target the safe, with Hyper Bear boosting his attack speed.",
+      "In Gem Grab, he absorbs damage, depletes enemy ammo, and weakens opponents, helping control the gem mine.",
+      "Faux Fur keeps Bruce alive longer, especially in Heist, while Bear with Me offers consistent healing in other modes.",
+      "Bear Paws works well with Hyper Bear, stunning enemies and charging her Super quickly, especially against high-health Brawlers. It also synergizes with Bear with Me, allowing Bruce to heal Nita more.",
+      "Bruce can prevent healing, scout enemies in bushes, and be thrown over walls to surprise enemies in cover.",
+      "Bruce’s attack range is short, making him perfect for confined spaces so summon Bruce closer to you in this situation for tanking shots and escaping."
+    ]
   },
   {
     "name": "Poco",
@@ -420,52 +427,58 @@
     "abilities": {
       "gadgets": [
         {
-          "name": "",
-          "description": ""
+          "name": "Tuning Fork",
+          "description": "Poco releases a musical wave in a 3.33-tile radius around him, making himself and allies in range heal 740 health every second for 5 seconds, for a total of 3700 health."
         },
         {
-          "name": "",
-          "description": ""
+          "name": "Protective Tunes",
+          "description": "Poco removes poisons, burns, stuns, slows, and brawler-specific abilities from all allies in a 6-tile radius and make them immune from these effect for 4 seconds. It does not interrupt knockbacks."
         }
       ],
       "starPowers": [
         {
-          "name": "",
-          "description": ""
+          "name": "Da Capo!",
+          "description": "This allows Poco's main attack to heal allied Brawlers it hits for 962 health, in addition to damaging enemies."
         },
         {
-          "name": "",
-          "description": ""
+          "name": "Screeching Solo",
+          "description": "Poco's Super now deals 1520 damage to enemy Brawlers in range, in addition to healing allies. Note that auto-aiming your Super still aims it towards allies instead of enemies."
         }
       ],
       "hypercharge": {
-        "name": "",
-        "description": ""
+        "name": "Medic's Melody",
+        "description": "Poco's Super now gives teammates a shield that decays over time if they already have full health. He gains a 25% speed and 15% damage and shield boosts."
       }
     },
     "stats": {
-      "class": "",
-      "damage": "",
-      "superDamage": "",
-      "health": "",
-      "range": "",
-      "superRange": "",
-      "movementSpeed": "",
-      "reloadSpeed": "",
-      "gender": "",
-      "voiceActor": "",
-      "masteryTitle": ""
+      "class": "Support",
+      "damage": "1520",
+      "superDamage": "Heals 4200",
+      "health": "7400",
+      "range": "7 (Long)",
+      "superRange": "9.33 (Very Long)",
+      "movementSpeed": "720 (Normal)",
+      "reloadSpeed": "1.6s (Normal)",
+      "gender": "Male",
+      "voiceActor": "Darren Roebuck",
+      "masteryTitle": "El Mariachi"
     },
     "attack": {
-      "name": "",
-      "description": ""
+      "name": "Power Chord",
+      "description": "Poco attacks by releasing a wave from his guitarrón in the form of musical notes. The attack spreads out significantly as it travels, covering a large area and piercing through multiple enemies. However, it deals a very low amount of damage."
     },
     "super": {
-      "name": "",
-      "description": ""
+      "name": "Encore",
+      "description": "Poco’s Super releases a larger cone-shaped musical wave that heals him and allies it hits for a large amount. The wave is much wider and longer than his regular attack, travels through Brawlers and obstacles, and appears green regardless of team. It only heals brawlers but not spawnables."
     },
-    "description": "",
-    "tips": [""]
+    "description": "Poco is a Rare Brawler with moderate health and strong healing abilities, but low damage. His attack spreads damaging musical notes, while his Super heals allies within its wide range. His Gadgets include Tuning Fork, which heals nearby allies, and Protective Tunes, which cleanses and shields allies from status effects. Da Capo! makes his attack heal allies, while Screeching Solo adds damage to his Super. His Hypercharge, Medic's Melody, provides an overheal shield for teammates that decays over time.",
+    "tips": [
+      "Screeching Solo is good for Solo events like Showdown but Poco struggles in these due to low damage and difficulty charging his Super.",
+      "To maximize Da Capo!, line up attacks to heal allies while damaging enemies.",
+      "Screeching Solo adds hybrid capabilities, best for finishing off low-health enemies.",
+      "Poco pairs well with other healers for continuous healing in 3v3, supporting teammates, especially tanks, while controlling the map.",
+      "His Super and Da Capo! Star Power make him excellent for support, especially in tight game modes like knockout, and his instant healing is better than Pam's in offense-focused modes."
+    ]
   },
   {
     "name": "Rosa",
@@ -473,52 +486,59 @@
     "abilities": {
       "gadgets": [
         {
-          "name": "",
-          "description": ""
+          "name": "Grow Light",
+          "description": "Rosa grows a 3-by-3 section of bushes where she is standing. These bushes stay unless destroyed, after a goal in Brawl Ball, or after a round is over. They can't grow over obstacles or beneath the safe."
         },
         {
-          "name": "",
-          "description": ""
+          "name": "Unfriendly Bushes",
+          "description": "All bushes deal 276 damage and slow enemies inside for 3 seconds. Since the damage briefly reveals them, this Gadget is great for checking bushes."
         }
       ],
       "starPowers": [
         {
-          "name": "",
-          "description": ""
+          "name": "Plant Life",
+          "description": "Rosa heals 300 health for every second she's inside a bush."
         },
         {
-          "name": "",
-          "description": ""
+          "name": "Thorny Gloves",
+          "description": "While Rosa's Super is active, Rosa's attack gains 276 extra damage per punch, adding a total of 828 more damage to one full attack."
         }
       ],
       "hypercharge": {
-        "name": "",
-        "description": ""
+        "name": "Grasping Roots",
+        "description": "When Rosa's Super is active, it slows enemies down in a 4.33-tile radius around herself that moves with her. She gains a 25% speed and shield boosts, and a 5% damage boost."
       }
     },
     "stats": {
-      "class": "",
-      "damage": "",
-      "superDamage": "",
-      "health": "",
-      "range": "",
-      "superRange": "",
-      "movementSpeed": "",
-      "reloadSpeed": "",
-      "gender": "",
-      "voiceActor": "",
-      "masteryTitle": ""
+      "class": "Tank",
+      "damage": "920x3",
+      "superDamage": "0",
+      "health": "10000",
+      "range": "3.67 (Short)",
+      "superRange": "0",
+      "movementSpeed": "770 (Fast)",
+      "reloadSpeed": "1s (Very Fast)",
+      "gender": "Female",
+      "voiceActor": "Sheila Williams",
+      "masteryTitle": "Touching Grass"
     },
     "attack": {
-      "name": "",
-      "description": ""
+      "name": "Hands of Stone",
+      "description": "Rosa throws a flurry of three short-ranged, piercing punches in a wide arc, dealing moderately high damage. She has low burst damage as the attack takes 1.1 seconds to complete."
     },
     "super": {
-      "name": "",
-      "description": ""
+      "name": "Strong Stuff",
+      "description": "Rosa gains a shield that reduces all damage she takes by 70% for 3 seconds, along with an altered appearance and having a yellow shield around her."
     },
-    "description": "",
-    "tips": [""]
+    "description": "Rosa is a high-health, high-damage Rare Brawler whose Trait lets her charge her Super when damaged. Her attack delivers three short-ranged punches. Her Super grants a temporary damage-reduction shield. Grow Light creates bushes, while Unfriendly Bushes slows and damages enemies in bushes. Plant Life heals Rosa in bushes, while Thorny Gloves boosts her attack during her Super. Her Hypercharge, Grasping Roots, slows enemies in a circular area around her Super.",
+    "tips": [
+      "Rosa excels in 3v3 modes like Gem Grab and Hot Zone due to her high health, damage, and survivability. She pairs well with long-ranged Brawlers in Duo Showdown and can score in Brawl Ball using her Super, though she must avoid crowd control abilities.",
+      "Rosa thrives in Showdown with her Plant Life Star Power, healing while bush-camping.",
+      "Her Grow Light Gadget creates bushes for ambushes and healing with Plant Life, while Unfriendly Bushes reveals and slows enemies in bushes, good for checking bushes.",
+      "Plant Life is ideal for bush-heavy maps, while Thorny Gloves suits maps with fewer bushes.",
+      "Rosa can chain Supers to wipe teams but isn't invincible, struggling against high-damage Brawlers like Nani and Griff.",
+      "She counters most assassins except Edgar and struggles against control Brawlers like Emz and Spike."
+    ]
   },
   {
     "name": "8-Bit",

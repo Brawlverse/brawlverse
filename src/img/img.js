@@ -8,6 +8,9 @@ import brock from "./brawlers/brock.webp";
 import bull from "./brawlers/bull.webp";
 import colt from "./brawlers/colt.webp";
 import elprimo from "./brawlers/el primo.webp";
+import nita from "./brawlers/nita.webp";
+import poco from "./brawlers/poco.webp";
+import rosa from "./brawlers/rosa.webp";
 import fastForward from "./brawlers/abilities/fastForward.webp";
 import clayPigeons from "./brawlers/abilities/clayPigeons.webp";
 import shellShock from "./brawlers/abilities/shellShock.webp";
@@ -38,6 +41,21 @@ import asteroidBelt from "./brawlers/abilities/asteroidBelt.webp";
 import elFuego from "./brawlers/abilities/elFuego.webp";
 import meteorRush from "./brawlers/abilities/meteorRush.webp";
 import gravityLeap from "./brawlers/abilities/gravityLeap.webp";
+import bearPaws from "./brawlers/abilities/bearPaws.webp";
+import fauxFur from "./brawlers/abilities/fauxFur.webp";
+import bearwith from "./brawlers/abilities/bearWith.webp";
+import hyperBear from "./brawlers/abilities/hyperBear.webp";
+import hyperbearing from "./brawlers/abilities/hyperbearing.webp";
+import tuningFork from "./brawlers/abilities/tuningFork.webp";
+import protectiveTunes from "./brawlers/abilities/protectiveTunes.webp";
+import daCapo from "./brawlers/abilities/daCapo!.webp";
+import screechingSolo from "./brawlers/abilities/screechingSolo.webp";
+import medicsMelody from "./brawlers/abilities/medic'sMelody.webp";
+import growLight from "./brawlers/abilities/growLight.webp";
+import unfriendlyBushes from "./brawlers/abilities/unfriendlyBushes.webp";
+import plantLife from "./brawlers/abilities/plantLife.webp";
+import thornyGloves from "./brawlers/abilities/thornyGloves.webp";
+import graspingRoots from "./brawlers/abilities/graspingRoots.webp";
 
 const images = {
   brawlersCard,
@@ -50,6 +68,9 @@ const images = {
   bull,
   colt,
   elprimo,
+  nita,
+  poco,
+  rosa,
   fastForward,
   clayPigeons,
   shellShock,
@@ -80,6 +101,21 @@ const images = {
   elFuego,
   meteorRush,
   gravityLeap,
+  bearPaws,
+  fauxFur,
+  bearwith,
+  hyperBear,
+  hyperbearing,
+  tuningFork,
+  protectiveTunes,
+  daCapo,
+  screechingSolo,
+  medicsMelody,
+  growLight,
+  unfriendlyBushes,
+  plantLife,
+  thornyGloves,
+  graspingRoots,
 };
 
 export default images;

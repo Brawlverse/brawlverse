@@ -11,7 +11,7 @@ function BrawlerAbilities({ props }) {
   return (
     <div className="brawler-abilities">
       {abilities.map((ability, index) => {
-        let imageName1 = ability.name.replace("-", " ").replace(/[.!]/g, "").split(" ");
+        let imageName1 = ability.name.replace("-", " ").replace(/[.!']/g, "").split(" ");
         let imageName2 = imageName1.length > 1 ? imageName1[0].toLowerCase() + imageName1[1] : imageName1[0].toLowerCase();
         return <BrawlerAbility key={index} name={ability.name} description={ability.description} img={images[imageName2]} />;
       })}
